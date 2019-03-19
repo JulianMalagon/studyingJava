@@ -7,10 +7,7 @@ public class Materias {
 	String dia;
 	String hora;
 	
-	String semana = "||	Lunes		||	Martes		||	Miercoles	||"
-			+ "	Jueves		||	Viernes		||	Sabado		|| Domingo		||";
 	
-	System.out.println(semana+ "Dato");
 
 	
 	//Declaracion del Metodo Primcipal "Main"
@@ -55,14 +52,15 @@ public class Materias {
 		
 		System.out.println("El Horario queda establecido asi: \n");
 		
+		String semana = "||Lunes		||Martes		||Miercoles		||Jueves		||Viernes		||Sabado		||Domingo		||";
 		
+		System.out.println(semana);
 		
 		//System.out.println(calculo.dia +"\n" +calculo.nombre + " Modulo: "+calculo.modulo + "\n" +calculo.hora + "\n");
 		
 		//System.out.println(estructurasDatos.dia +"\n" +estructurasDatos.nombre + " Modulo: "+estructurasDatos.modulo + "\n" +estructurasDatos.hora + "\n");
 		
 		//System.out.println(elementosTeoria.dia +"\n" 	+elementosTeoria.nombre + " Modulo: "+elementosTeoria.modulo + "\n" +elementosTeoria.hora + "\n");
-		
 		
 		
 		
